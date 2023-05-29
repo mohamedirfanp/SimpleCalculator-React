@@ -1,0 +1,113 @@
+
+.mainBox
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid #345; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: white;
+    border-radius: 10px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.inputDiv
+{
+    margin: .5rem 0;
+    width: 100%;
+    
+    
+}
+
+.inputEle
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.inputEle > button
+{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.input
+{
+    display: block;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    margin: .5rem;
+    border: 2px solid #345;
+    background-color: white; 
+    color: black ;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.highlight
+{
+    display: block;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white; 
+    color: black ;
+    border: 2px solid blue;
+    padding-top: 5px;
+}
+
+.CalcDiv
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.numDiv
+{
+    --size : 4;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: auto auto auto;
+    grid-column: 3;
+    gap: 1rem;
+    width: 50%;
+    padding: 1rem;
+    height: 70%;
+    margin: .5rem;
+}
+
+
+.numDiv > .btn
+{
+    padding: 10px;
+    border: 1px solid darkblue;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+
+}
+
+.btn:hover
+{
+    color: whitesmoke;
+    
+}
+
+
+
